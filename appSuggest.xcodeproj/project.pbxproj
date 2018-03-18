@@ -54,14 +54,38 @@
 		8429A3E2205EB36900B61146 /* appSuggest */ = {
 			isa = PBXGroup;
 			children = (
+				8429A3F7205EB47300B61146 /* Model */,
 				8429A3E3205EB36900B61146 /* AppDelegate.swift */,
-				8429A3E5205EB36900B61146 /* ViewController.swift */,
-				8429A3E7205EB36900B61146 /* Main.storyboard */,
+				8429A3F6205EB45A00B61146 /* Controller */,
+				8429A3F5205EB42D00B61146 /* View */,
 				8429A3EA205EB36900B61146 /* Assets.xcassets */,
-				8429A3EC205EB36900B61146 /* LaunchScreen.storyboard */,
 				8429A3EF205EB36900B61146 /* Info.plist */,
 			);
 			path = appSuggest;
+			sourceTree = "<group>";
+		};
+		8429A3F5205EB42D00B61146 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8429A3E7205EB36900B61146 /* Main.storyboard */,
+				8429A3EC205EB36900B61146 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8429A3F6205EB45A00B61146 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8429A3E5205EB36900B61146 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8429A3F7205EB47300B61146 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
